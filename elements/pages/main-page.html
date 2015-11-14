@@ -1,0 +1,48 @@
+<!--
+Element: main-page
+Author: Dong Duong
+Create: 03/11/2015
+-->
+
+<dom-module id="main-page">
+  <style>
+    :host {
+      display: block;
+      height: 100%;
+    }
+    
+    #Content{
+      height: 100%;
+    }
+    
+    paper-tabs{
+      background-color: var(--paper-light-blue-500)
+    }
+  </style>
+
+  <template id="mainPage">
+    <div id="Content">
+      <paper-tabs selected="0">
+        <paper-tab link>
+          <a href="#link1" class="horizontal center-center layout">TAB ONE</a>
+        </paper-tab>
+        <paper-tab link>
+          <a href="#link2" class="horizontal center-center layout">TAB TWO</a>
+        </paper-tab>
+        <paper-tab link>
+          <a href="#link3" class="horizontal center-center layout">TAB THREE</a>
+        </paper-tab>
+      </paper-tabs>
+    </div>
+  </template>
+  
+  <script>
+  Polymer({
+    is: 'main-page',
+    
+    properties: {
+
+    }
+  });
+</script>
+</dom-module>

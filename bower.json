@@ -1,0 +1,22 @@
+{
+  "name": "poly-fb-embeBed-posts",
+  "description": "Facebook Embedded Post component",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "DongDuong"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "platform": "Polymer/platform"
+  }
+}
